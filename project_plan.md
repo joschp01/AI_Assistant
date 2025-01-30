@@ -67,13 +67,20 @@
 
 ## Phase IV: Testing and Fine-Tuning
 
- * Unit Testing
+ **Unit Testing**
+
  * Test individual modules (wake word, STT, NLP, TTS).
- * Integration Testing
+ 
+ **Integration Testing**
+
  * Ensure seamless flow between modules (voice to response).
- * User Testing
+ 
+ **User Testing**
+
  * Gather feedback on accuracy and usability.
- * Fine-Tuning
+ 
+ **Fine-Tuning**
+
  * Refine NLP models based on user interactions and specific ROS terms.
  * Optimize STT and TTS models for your hardware.
 
