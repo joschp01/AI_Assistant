@@ -1,0 +1,15 @@
+Installed Ollama. Ollama is a free, open-source tool that allows users to run large language models (LLMs) locally on their computers. It's designed to make it easier for AI practitioners to work with LLMs.
+
+    Features:
+    Local execution: Ollama allows users to run LLMs locally on their computers, without relying on cloud services. 
+    Model customization: Ollama allows users to create and customize their own models. 
+    Offline access: Ollama allows users to work without an internet connection. 
+    Data control: Ollama gives users complete control over their data, which can help with privacy and compliance concerns. 
+    Scalability: Ollama's managed infrastructure allows users to scale up to handle large workloads and concurrent requests.
+
+Commands:
+1. install curl:
+    sudo apt install curl
+
+2. install ollama:
+    curl -fsSL https://ollama.com/install.sh | sh
