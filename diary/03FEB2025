@@ -2,3 +2,89 @@ Downloaded Rhino from PicoVoice. The resource is not viable for this project, as
 
 A better option is Mycroft voice. However, Mycroft has ceased development. Luckily, a new group known as Open Voice OS (OVOS) has taken Mycroft's code, and continued developing it.
 
+~~~
+You're correct! **Mycroft AI** (the original company) has indeed scaled back its development efforts, but the open-source community has stepped in to continue the project under the name **Open Voice OS (OVOS)**. OVOS is a community-driven fork of Mycroft that aims to keep the project alive, improve it, and expand its capabilities. Here's what you need to know about **OVOS**:
+
+---
+
+### **What is Open Voice OS (OVOS)?**
+- **Community-Driven Fork**: OVOS is a continuation of the Mycroft AI project, maintained and developed by a passionate open-source community.
+- **Mission**: To create a privacy-focused, open-source voice assistant platform that is modular, extensible, and accessible to everyone.
+- **Core Philosophy**: OVOS emphasizes **user privacy**, **offline functionality**, and **customizability**.
+
+---
+
+### **Key Features of OVOS**
+1. **Modular Architecture**:
+   - OVOS retains Mycroft's modular design, allowing developers to plug in different components (e.g., STT, TTS, NLU) as needed.
+   - You can replace or upgrade individual modules without affecting the entire system.
+
+2. **Privacy-First**:
+   - OVOS is designed to run entirely offline, ensuring that user data never leaves their device.
+   - No reliance on cloud services unless explicitly configured by the user.
+
+3. **Extensible Skills**:
+   - Like Mycroft, OVOS supports custom skills (plugins) that can be written in Python.
+   - The community is actively developing new skills and improving existing ones.
+
+4. **Improved NLU**:
+   - OVOS is working on enhancing natural language understanding (NLU) capabilities, making it easier to create complex voice interactions.
+
+5. **Cross-Platform Support**:
+   - OVOS can run on a variety of platforms, including Linux, Raspberry Pi, and other edge devices.
+
+6. **Active Development**:
+   - The OVOS community is actively developing and maintaining the codebase, with regular updates and improvements.
+
+---
+
+### **How OVOS Differs from Mycroft**
+- **Community Ownership**: OVOS is not tied to a single company, making it more resilient to corporate decisions.
+- **Focus on Offline Functionality**: OVOS places a stronger emphasis on offline capabilities and privacy.
+- **Modernization**: The OVOS team is modernizing the codebase, improving performance, and adding new features.
+
+---
+
+### **Getting Started with OVOS**
+1. **Installation**:
+   - Visit the [OVOS GitHub repository](https://github.com/OpenVoiceOS) for installation instructions.
+   - OVOS can be installed on Linux-based systems, including Raspberry Pi.
+
+2. **Documentation**:
+   - Check out the [OVOS documentation](https://openvoiceos.github.io/) for guides on setting up, developing skills, and customizing your assistant.
+
+3. **Community Support**:
+   - Join the [OVOS community on Discord](https://discord.gg/mycroft) or [Matrix](https://matrix.to/#/#OpenVoiceOS:matrix.org) to ask questions, share ideas, and collaborate with other developers.
+
+4. **Skills Development**:
+   - Explore the [OVOS Skills Repository](https://github.com/OpenVoiceOS/ovos-skills) to find and contribute to existing skills.
+   - Use the [Skill Development Guide](https://openvoiceos.github.io/developers/skills/) to create your own custom skills.
+
+---
+
+### **Example Use Cases for OVOS**
+- **Smart Home Control**: Use OVOS to control IoT devices, lights, and appliances with voice commands.
+- **Personal Assistant**: Create a custom assistant to manage your calendar, reminders, and tasks.
+- **Education**: Build an interactive learning tool for students.
+- **Enterprise Solutions**: Develop voice-enabled tools for businesses, such as inventory management or customer support.
+
+---
+
+### **Pros of Using OVOS**
+- **Open Source**: Fully transparent and customizable.
+- **Privacy-Focused**: No data leaves your device unless you configure it to.
+- **Active Community**: Regular updates and a supportive community.
+- **Modular and Extensible**: Easily add or replace components.
+
+---
+
+### **Cons to Consider**
+- **Learning Curve**: Like Mycroft, OVOS requires some technical expertise to set up and customize.
+- **Resource Requirements**: Running OVOS on low-power devices may require optimization.
+- **Limited Pre-Built Skills**: While the community is growing, you may need to develop many skills yourself.
+
+---
+
+### **Conclusion**
+If you're looking to build a **privacy-focused, open-source voice assistant**, **OVOS** is an excellent choice. It builds on the foundation of Mycroft while addressing some of its limitations and adding new features. With an active community and a commitment to offline functionality, OVOS is a promising platform for your voice AI assistant project. Check out their [GitHub](https://github.com/OpenVoiceOS) and [documentation](https://openvoiceos.github.io/) to get started!
+~~~
