@@ -1,0 +1,8 @@
+Developing the "wake up" module:
+
+Created a venv within 1_wake_up, named "wakeUp_venv"
+
+I installed ovos-core using:
+
+    pip install ovos-core
+
