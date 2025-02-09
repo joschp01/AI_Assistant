@@ -17,3 +17,24 @@ To install ovos-installer, I used the following command (need sudo, curl, and gi
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/OpenVoiceOS/ovos-installer/main/installer.sh)"
 
 After running, the installer stated that the Python virtual environment was not created. The python version I have (3.8) is not compatible.
+
+I installed Python3.9
+
+sudo apt update
+sudo apt install python3.9
+
+# install venv for 3.9
+sudo apt install python3.9-venv
+
+After installing python3.9, I still ran into the same problem: ovos-installer is still not able to create the Python venv
+
+I cloned the repo inside 1_wake_up/:
+git clone https://github.com/OpenVoiceOS/ovos-installer.git
+
+I tried to install from within the repo, but it couldn't be installed using the following command:
+
+pip install .
+
+~~~
+
+I will try using the automated installer found in the repo.
