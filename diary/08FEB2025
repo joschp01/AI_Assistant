@@ -11,3 +11,9 @@ ovos-core
 I deleted everything about ovos-core (deleted requirements.txt and venv associated with all installs of ovos-core).
 
 I found ovos-installer, so I'll try that one.
+
+To install ovos-installer, I used the following command (need sudo, curl, and git):
+
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/OpenVoiceOS/ovos-installer/main/installer.sh)"
+
+After running, the installer stated that the Python virtual environment was not created. The python version I have (3.8) is not compatible.
