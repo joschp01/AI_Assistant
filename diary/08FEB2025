@@ -3,3 +3,11 @@ To see if my version of ovos-core is installed correctly, I ran the command agai
 pip install ovos-core
 
 It ran successfully, and didn't give any errors.
+
+I tried to run ovos-core, but the services didn't open correctly.
+
+ovos-core
+
+I deleted everything about ovos-core (deleted requirements.txt and venv associated with all installs of ovos-core).
+
+I found ovos-installer, so I'll try that one.
