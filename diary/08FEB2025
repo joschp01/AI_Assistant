@@ -1,0 +1,5 @@
+To see if my version of ovos-core is installed correctly, I ran the command again:
+
+pip install ovos-core
+
+It ran successfully, and didn't give any errors.
