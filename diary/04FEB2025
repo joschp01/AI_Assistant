@@ -6,3 +6,9 @@ I installed ovos-core using:
 
     pip install ovos-core
 
+I ran into some version problems and had to resolve:
+
+    langcodes:
+
+    pip install langcodes=3.0.0
+
