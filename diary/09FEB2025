@@ -5,3 +5,27 @@ To launch the installer, I deepseek suggested to use the following command:
 ./ovos-installer -s <scenario.yaml>
 
 where the scenario.yaml is the yaml file to be executed
+
+~~~
+
+none of that worked. I went back to ovos-core.
+
+I did:
+
+pip install ovos-core
+
+I was prompted that my version of ovos-config has to be below 1.0.0, so I had to update:
+
+pip install ovos-config==0.4.6
+
+I ran the command again:
+
+pip install ovos-core
+
+and did not run into any issues.
+
+Next time, I will try exploring the link:
+
+https://openvoiceos.github.io/ovos-technical-manual/102-core/
+
+Which is info for "ovos-core"
