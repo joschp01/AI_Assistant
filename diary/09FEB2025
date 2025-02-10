@@ -1,0 +1,7 @@
+Today, I found the Scenarios that can be found under the repo folder.
+
+To launch the installer, I deepseek suggested to use the following command:
+
+./ovos-installer -s <scenario.yaml>
+
+where the scenario.yaml is the yaml file to be executed
