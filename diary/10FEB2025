@@ -1,0 +1,33 @@
+Big breakthrough today.
+
+I tried delving within the documentation of ovos-core.
+I read a bit into skills, which seemed promising. There is apparently a few "stores" that I can get skills from.
+
+However, this is not the source of the breakthrough.
+I looked into the message and analyzed what was happening:
+
+2025-02-10 22:16:59.249 - OVOS - ovos_bus_client.client.client:on_error:112 - WARNING - Connection Refused. Is Messagebus Service running?
+
+"ovos_bus_client" --> this search led me to "https://github.com/OpenVoiceOS/ovos-bus-client" which referred to the "OVOS messagebus." looking into this more, I found "https://github.com/OpenVoiceOS/ovos-messagebus"
+
+I checked if the package was installed, but nope. So then, I tried to install ovos-messagebus using the following command:
+
+pip install ovos-messagebus
+
+and it worked!
+
+I ran ovos-messagebus, and found that this was the issue all along. ovos-core was looking for this server, when launching. Since it couldn't find it, nothing was "happening"
+
+~~~
+
+Activating my virtual environment, I then ran "ovos-messagebus" in one terminal, and then ran "ovos-core."
+
+According to the message, here are a few things that stood out:
+1. ovos_core.intent_services:_load_pipeline_plugins:101 - ERROR - Failed to create padatious intent handlers, padatious not installed
+2. INFO - Skills Manager is starting up.
+2025-02-10 22:27:11.084 - skills - ovos_core.skill_manager:__init__:121 - WARNING - No installed skills detected! if you are running skills in standalone mode ignore this warning, otherwise you probably want to install skills first!
+3. skills - ovos_core.skill_manager:on_alive:64 - INFO - Skills Manager is alive.
+2025-02-10 22:27:17.215 - skills - ovos_core.skill_manager:on_ready:68 - INFO - Skills Manager is ready.
+2025-02-10 22:27:17.227 - skills - ovos_core.skill_manager:run:394 - INFO - ovos-core is ready! additional skills can now be loaded
+
+Next time, I'll investigate these messages and see what I need to do next. What is padatious? how do I install skills? I saved the rest of the message inside "10FEB2025_first_run_msg.txt" for future reference

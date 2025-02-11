@@ -1,0 +1,16 @@
+ovos-core
+2025-02-10 22:27:08.667 - skills - ovos_core.intent_services:_load_pipeline_plugins:101 - ERROR - Failed to create padatious intent handlers, padatious not installed
+2025-02-10 22:27:08.766 - common_query.openvoiceos - INFO - First run of common_query.openvoiceos
+2025-02-10 22:27:08.767 - skills - ovos_workshop.skills.ovos:on_ready_status:758 - INFO - common_query.openvoiceos is ready.
+2025-02-10 22:27:10.582 - skills - ovos_commonqa.opm:__init__:66 - INFO - CommonQuery ReRanker: ovos-choice-solver-bm25
+2025-02-10 22:27:10.854 - ovos.common_play - INFO - First run of ovos.common_play
+2025-02-10 22:27:10.855 - skills - ovos_workshop.skills.ovos:on_ready_status:758 - INFO - ovos.common_play is ready.
+2025-02-10 22:27:10.856 - skills - ovos_bus_client.apis.ocp:ClassicAudioServiceInterface.__init__ - WARNING - Deprecation version=0.1.0. Caller=ocp_pipeline.opm:62. removed from ovos-audio with the adoption of ovos-media service, use OCPInterface instead
+2025-02-10 22:27:10.895 - skills - ocp_pipeline.opm:load_intent_files:163 - WARNING - Padatious not available, using padacioso. intent matching will be orders of magnitude slower!
+2025-02-10 22:27:11.056 - skills - ovos_core.transformers:load_plugins:32 - INFO - loaded utterance transformer plugin: ovos-utterance-normalizer
+2025-02-10 22:27:11.074 - skills - ovos_bus_client.util.scheduler:run:148 - INFO - EventScheduler Started
+2025-02-10 22:27:11.075 - skills - ovos_core.skill_manager:on_started:60 - INFO - Skills Manager is starting up.
+2025-02-10 22:27:11.084 - skills - ovos_core.skill_manager:__init__:121 - WARNING - No installed skills detected! if you are running skills in standalone mode ignore this warning, otherwise you probably want to install skills first!
+2025-02-10 22:27:11.086 - skills - ovos_core.skill_manager:on_alive:64 - INFO - Skills Manager is alive.
+2025-02-10 22:27:17.215 - skills - ovos_core.skill_manager:on_ready:68 - INFO - Skills Manager is ready.
+2025-02-10 22:27:17.227 - skills - ovos_core.skill_manager:run:394 - INFO - ovos-core is ready! additional skills can now be loaded
