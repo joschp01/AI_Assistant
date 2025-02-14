@@ -1,0 +1,8 @@
+#!/home/fossa_dev/Projects/AI_Assistant/1_wake_up/ovos-env/bin/python3.9
+# -*- coding: utf-8 -*-
+import re
+import sys
+from neon_mana_utils.cli import neon_mana_cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(neon_mana_cli())
