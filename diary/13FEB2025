@@ -1,0 +1,15 @@
+After analyzing the message from running the command:
+ovos-messagebus
+ovos-core
+
+I get pointed to ovos-padatious.
+
+So far, here are some info that I found:
+1. ovos-core
+2. ovos-messagebus
+3. padatious (ovos-padatious-pipeline-plugin)
+
+I had read that there may be some skills that are already installed on ovos-core. To see the installed skills, it was suggested to use "mana."
+
+To use mana, use the following steps:
+
