@@ -13,3 +13,11 @@ I had read that there may be some skills that are already installed on ovos-core
 
 To use mana, use the following steps:
 
+# install the necessary package
+pip install neon-mana-utils
+
+# view the list of installed skills
+mana get-skills-list
+
+Note: to install skills, one can just use "pip."
+Note: to find skills to install, look into PyPi or the OVOS GitHub Organization
