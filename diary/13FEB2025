@@ -32,3 +32,5 @@ ERROR: neon-utils 1.12.0 has requirement ovos-workshop>=0.0.15,~=0.0, but you'll
 I don't know if neon-utils is important, but I can go back to this later to fix it.
 
 I had continued, and found that ovos-core (with ovos-messagebus running) ran smoothly. I can continue with the dev and investigation.
+
+apparently, mana is short for "Message Application for Neon AI," which is a "cutting-edge conversational artificial intelligence technology to empower users in the privacy of their own system, using open source software." So that's neat!
