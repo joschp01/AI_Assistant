@@ -21,3 +21,14 @@ mana get-skills-list
 
 Note: to install skills, one can just use "pip."
 Note: to find skills to install, look into PyPi or the OVOS GitHub Organization
+
+after running pip install neon-mana-utils, I got an error that states my ovos-workshop needs to be 3.3.4 <= x < 4.0.0. I need to update my ovos-workshop
+
+pip install ovos-workshop==3.3.4
+
+This ran successfully but I got the message:
+ERROR: neon-utils 1.12.0 has requirement ovos-workshop>=0.0.15,~=0.0, but you'll have ovos-workshop 3.3.4 which is incompatible.
+
+I don't know if neon-utils is important, but I can go back to this later to fix it.
+
+I had continued, and found that ovos-core (with ovos-messagebus running) ran smoothly. I can continue with the dev and investigation.
