@@ -1,9 +1,10 @@
-1. "ovos-messagebus"
-    starts the messagebus. This is necessary to be able to initiate ovos-core
+1. CMD-1 : "ovos-messagebus"
+    starts the messagebus. This is necessary to be able to initiate ovos-core.
+    Link: CMD-2
 
-2. "ovos-core"
+2. CMD-2 : "ovos-core"
     start this to begin the service. <fill in with info later>
 
-3. "mana get-skills-list"
+3. CMD-3 : "mana get-skills-list"
     this retrieves all the installed skills. Skills can be installed via "pip." Refer to PyPi or the OVOS GitHub organization for more information.
 
