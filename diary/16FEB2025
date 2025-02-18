@@ -1,1 +1,39 @@
 Since the ovos-core was complaining that padatious wasn't installed, I'll investigate how to install it.
+
+I executed the install command for padatious:
+
+pip3 install ovos-padatious
+
+And found the swig 2.0 wasn't found. I needed to execute the install command for swig:
+
+pip install swig
+
+Then I ran the ovos-padatious install command again. I ran into another issue: fann2 was not installed.
+
+I wanted to install fann, so I ran the following command:
+
+pip install fann=1.0.7
+
+But I ran into the same issues, of failing to compile necessary files.
+
+The issue, apparently, is that the latest version of libfann-dev in Ubuntu is out of date. The solution is to then install the necessary files using the github repo:
+
+git clone https://github.com/libfann/fann.git
+cd ./fann
+(optional: if cmake isn't installed) sudo apt install cmake
+cmake .
+sudo make install
+
+I ran the padatious install again, and found another error:
+
+error: invalid command "bdist_wheel"
+
+So I had to install wheel:
+
+pip install wheel
+
+After installing wheel, I ran the padatious install command again, but this time, I entered an option:
+
+pip3 install padatious --no-cache-dir
+
+The option diable using the "cached" copy. The install succeeded in building padatious, but failed building fann2. This is ok, though, since I built fann2 from its github repo, and built it successfully (using cmake).
